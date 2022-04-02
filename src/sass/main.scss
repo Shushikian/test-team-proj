@@ -4,5 +4,8 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+// @import './example';
+@import './util/variables';
+@import './util/reset';
 @import './src/sass/components/btn';
+@import './components/contacts';
