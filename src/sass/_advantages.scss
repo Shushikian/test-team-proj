@@ -13,6 +13,17 @@ ul {
     visibility: hidden;
 }
 
+.container {
+    padding-left: 20px;
+    padding-bottom: 80px;
+    @media screen and (min-width:768px) {
+        padding-bottom: 84px;
+    }
+    @media screen and (min-width:1200px) {
+        padding-bottom: 120px;
+    }
+}
+
 .advantages {
     background-color: #FFF5F6;
 }
@@ -119,5 +130,6 @@ ul {
     margin-right: 70px;
     @media screen and (min-width:768px) {
         margin-right: 0;
+        margin-bottom: 0px;
     }
 }
